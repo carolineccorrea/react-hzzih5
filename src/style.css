@@ -2,6 +2,7 @@ body {
   background-image: url("https://cdn.hipwallpaper.com/m/35/48/2THpsD.jpg");
   display: grid;
   font-family: Arial, sans-serif;
+  width: 768px;
 }
 p {
   color: black;
