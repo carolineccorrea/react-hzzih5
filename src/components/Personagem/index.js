@@ -1,15 +1,11 @@
 import React from 'react';
+import Card from '../Card'
 import "./style.css";
+export const Personagem = props =>(
+    <div className="card-list">
+        {props.personagem.map(personagem =>(
+           <p><Card key={personagem.name} personagem={personagem} eye_color={personagem.eye_color}/> </p>
+        ))}
+    </div>
+)
 
-class Personagem extends React.Component {
-    render() {
-      return( 
-        <div>
-        <h1>NOME..:{this.props.name}</h1>
-        <h1>COR DOS OLHOS..:{this.props.eyecolor}</h1>
-      </div>
-     )
-    }
-  }
-
-  export default Personagem;

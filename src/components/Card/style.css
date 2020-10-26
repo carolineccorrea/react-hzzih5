@@ -1,21 +1,22 @@
-.card-con{
-    display:flex;
-    flex-direction: column;
-    background-color: orange;
-    border:1px solid black;
-    border-radius: 5px;
-    padding: 25px;
-    cursor: pointer;
-    -moz-osx-font-smoothing: grayscale;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform 0.25s ease-out;
-  }
+.card-con {
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
 
-  .card-con:hover{
-    transform: scale(1.05);
-  }
+.card-con:hover {
+  transform: scale(1.05);
+}
 
-  h1{
-    color:black;
-  }
+h1 {
+  color: black;
+  font-size: 20px;
+}

@@ -1,7 +1,8 @@
-body{
-    padding: 50px;
+.card-list {
+  width: 40vh;
+  margin: left;
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding-left: 20px;
 }
-h1{
-    font-size: 15px;
-    color:yellow;
-  }

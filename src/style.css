@@ -1,9 +1,8 @@
 body {
-    background-image: url('https://cdn.hipwallpaper.com/m/35/48/2THpsD.jpg');
-    display: grid;
-    grid-template-columns: auto auto auto;
-    font-family: Arial, sans-serif;
-  }
-  p{
-    color: black;
+  background-image: url("https://cdn.hipwallpaper.com/m/35/48/2THpsD.jpg");
+  display: grid;
+  font-family: Arial, sans-serif;
+}
+p {
+  color: black;
 }
