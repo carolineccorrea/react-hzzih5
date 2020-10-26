@@ -1,6 +1,8 @@
 import React from 'react';
 import Personagem from './components/Personagem';
 import "./style.css";
+import Card from './components/Card'
+import { CardList } from './components/Card-list';
 
 class List extends React.Component {
     state = {
@@ -21,16 +23,7 @@ class List extends React.Component {
         return (
             <div>
                 <h1>Lista de Personagens</h1>
-
-                <ul>
-                    {this.state.data.map(item => (
-                        <li key={item.name}>
-                            <div className="item">
-                           <Personagem class="item" name={item.name} eyecolor={item.eye_color}></Personagem>
-                           </div>
-                        </li>
-                    ))}
-                </ul>
+               <CardList personagem={this.state.data}/>
             </div>
         );
     }

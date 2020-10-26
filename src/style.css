@@ -1,20 +1,9 @@
 body {
-  background-image: url("https://cdn.hipwallpaper.com/m/35/48/2THpsD.jpg");
-  display: grid;
-  grid-template-columns: 1pr 1pr 1pr;
-  font-family: Arial, sans-serif;
-}
-div p {
-  size: 10px;
-  color: yellow;
-}
-li {
-  padding: 10px;
-}
-.item {
-  padding: 20px;
-  border-width: 3px;
-  border-style: inset;
-  border-color: yellow;
-  border-radius: 10px;
+    background-image: url('https://cdn.hipwallpaper.com/m/35/48/2THpsD.jpg');
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: Arial, sans-serif;
+  }
+  p{
+    color: black;
 }
