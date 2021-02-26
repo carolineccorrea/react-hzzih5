@@ -1,1 +1,1 @@
-raw.githubusercontent.com/${react-hzzih5}/${master}/${install}
+raw.githubusercontent.com/react-hzzih5/master/install
